@@ -1,7 +1,7 @@
 # DevOps-week-1-Simple-health-check-script
 🧩 1. Overview
 
-Area            	    Skills & Tools
+Area,            	    Skills & Tools
 ______________________________________________________________
 Git Basics      	    Version control & GitHub
 
