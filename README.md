@@ -18,35 +18,35 @@ CI/CD Concept	        Integration with Azure DevOps pipeline
 
 🔹 Git Essentials
 
-git init                     # Initialize repo
-git add .                    # Stage files
-git commit -m "message"      # Commit changes
-git remote add origin <URL>  # Using HTTPS|SSH for Connecting remote repo
-git push origin master       # Push to GitHub/Azure Repos
-git pull origin master       # Pull the current files from global repo
-git branch branch-name       # Create new branch
-git merge branch-name        # mergeing two branches
-git log                      # To see the commit logs/history
+✅ git init                     # Initialize repo
+✅ git add .                    # Stage files
+✅ git commit -m "message"      # Commit changes
+✅ git remote add origin <URL>  # Using HTTPS|SSH for Connecting remote repo
+✅ git push origin master       # Push to GitHub/Azure Repos
+✅ git pull origin master       # Pull the current files from global repo
+✅ git branch branch-name       # Create new branch
+✅ git merge branch-name        # mergeing two branches
+✅ git log                      # To see the commit logs/history
 
 
 🔹 Common Linux Commands
 
-ls -l               # List files with permission type
-mkdir / rmdir       #Create / delete directories
-cd /path            # Change directory
-pwd                 # Show current path (present working directory)
-cat,touch,cp,mv,rm  # File handling
-vi, nano            # file editors
-df -h               # Disk usage (disk free)
-free -m             # Memory usage
-uptime              # System load
-chmod +x file.sh    # Make script executable/giving permmisions
-whoami              # Show current user
+✴ ls -l               # List files with permission type
+✴ mkdir / rmdir       #Create / delete directories
+✴ cd /path            # Change directory
+✴ pwd                 # Show current path (present working directory)
+✴ cat,touch,cp,mv,rm  # File handling
+✴ vi, nano            # file editors
+✴ df -h               # Disk usage (disk free)
+✴ free -m             # Memory usage
+✴ uptime              # System load
+✴ chmod +x file.sh    # Make script executable/giving permmisions
+✴ whoami              # Show current user
 
 🧩 3. System Health Check Script 🩺
 
-* The script automatically checks Disk, Memory, CPU, and Active User information — similar to a post-deployment health validation step in CI/CD.
-* The Information will shown with color to highlight and ensure the state of system.
+✴ The script automatically checks Disk, Memory, CPU, and Active User information — similar to a post-deployment health validation step in CI/CD.
+✴ The Information will shown with color to highlight and ensure the state of system.
 
 📜 Script File — system_health_check.sh
 ___________________________________________________
